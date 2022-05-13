@@ -1,0 +1,45 @@
+.about {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.about-list,
+.work-list {
+  display: flex;
+}
+
+.about-item + .about-item,
+.work-items + .work-items {
+  margin-left: 30px;
+}
+
+.about-item-bg {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: $second-bg-color;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.about-item-icon {
+  margin: auto;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $second-text-color;
+  margin-bottom: 10px;
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $third-text-color;
+  width: 270px;
+}
